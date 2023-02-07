@@ -43,7 +43,7 @@ manages firewall rules for you, and works from anywhere you are.
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [release-shield]: https://img.shields.io/github/release/lmagyar/homeassistant-addon-tailscale.svg
-[release]: https://github.com/lmagyar/homeassistant-addon-tailscale/releases
+[release]: https://github.com/cali15/homeassistant-addon-tailscale/releases
 [docs]: https://github.com/lmagyar/homeassistant-addon-tailscale/blob/main/tailscale/DOCS.md
 [warning_stripe]: https://github.com/lmagyar/homeassistant-addon-tailscale/raw/main/images/warning_stripe_wide.png
 [community_addon]: https://github.com/hassio-addons/addon-tailscale
