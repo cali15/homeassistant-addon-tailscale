@@ -7,7 +7,7 @@
 > **Installation:** Navigate in your Home Assistant frontend to **Settings** ->
 > **Add-ons** -> **Add-on Store**, in the **...** menu at the top right corner
 > click **Repositories**, add
-> `https://github.com/lmagyar/homeassistant-addon-tailscale` as repository.
+> `https://github.com/cali15/homeassistant-addon-tailscale` as repository.
 >
 > [For more details, please read the full add-on documentation][docs]
 
@@ -42,8 +42,8 @@ manages firewall rules for you, and works from anywhere you are.
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[release-shield]: https://img.shields.io/github/release/lmagyar/homeassistant-addon-tailscale.svg
+[release-shield]: https://img.shields.io/github/release/cali15/homeassistant-addon-tailscale.svg
 [release]: https://github.com/cali15/homeassistant-addon-tailscale/releases
-[docs]: https://github.com/lmagyar/homeassistant-addon-tailscale/blob/main/tailscale/DOCS.md
-[warning_stripe]: https://github.com/lmagyar/homeassistant-addon-tailscale/raw/main/images/warning_stripe_wide.png
+[docs]: https://github.com/cali15/homeassistant-addon-tailscale/blob/main/tailscale/DOCS.md
+[warning_stripe]: https://github.com/cali15/homeassistant-addon-tailscale/raw/main/images/warning_stripe_wide.png
 [community_addon]: https://github.com/hassio-addons/addon-tailscale
