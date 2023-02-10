@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.7.0.8.1 (forked)
+
+- bump tailscale version to 1.36.1
 
 ## 0.7.0.8.1 (test)
 
