@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0.9 (forked)
+
+- bump tailscale version to 1.36.2
+- bump base image version to 13.1.2
+
+
 ## 0.7.0.8.1 (forked)
 
 - bump tailscale version to 1.36.1
