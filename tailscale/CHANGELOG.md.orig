@@ -1,9 +1,10 @@
 # Changelog
 
+<<<<<<< HEAD
 ## 0.7.0.11
 
 - bump Tailscale version to 1.38.1
-
+=======
 ## 0.7.0.9 (forked)
 
 - bump tailscale version to 1.36.2
@@ -13,7 +14,7 @@
 ## 0.7.0.8.1 (forked)
 
 - bump tailscale version to 1.36.1
-
+>>>>>>> 9a98168adbf0c1b6a2ded6e33946a86a68f5b696
 
 ## 0.7.0.8.1 (test)
 

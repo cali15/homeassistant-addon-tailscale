@@ -1,0 +1,36 @@
+---
+name: Tailscale
+<<<<<<< HEAD
+version: 0.7.0.11
+=======
+version: 0.7.0.10
+>>>>>>> 9a98168adbf0c1b6a2ded6e33946a86a68f5b696
+slug: tailscale
+description: Zero config VPN for building secure networks
+url: https://github.com/cali15/homeassistant-addon-tailscale
+codenotary: cgonzalezq93@gmail.com
+ingress: true
+ingress_port: 0
+ingress_stream: true
+startup: services
+panel_icon: mdi:vpn
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+init: false
+map:
+  - ssl:rw
+hassio_api: true
+privileged:
+  - NET_ADMIN
+devices:
+  - /dev/net/tun
+host_network: true
+schema:
+  tags: ["match(^tag:[a-zA-Z0-9]-?[a-zA-Z0-9]+$)?"]
+  certificate_tailnet_name: match(^[a-z0-9][a-z0-9\-_]{0,61}\.ts\.net$)?
+  log_level: list(trace|debug|info|warning|error|fatal)?
+image: ghcr.io/cali15/{arch}-addon-tailscale
