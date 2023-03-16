@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.7.0.11
+
+- bump Tailscale version to 1.38.1
 
 ## 0.7.0.8.1 (test)
 
