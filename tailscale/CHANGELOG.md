@@ -1,4 +1,7 @@
 # Changelog
+## 0.7.0.13
+
+- bump Tailscale version to 1.38.3
 
 ## 0.7.0.12
 
