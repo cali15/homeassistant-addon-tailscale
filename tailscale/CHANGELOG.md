@@ -1,6 +1,11 @@
 # Changelog
 ## 0.7.0.13
 
+- bump Tailscale version to 1.38.4
+- bump base image to 1.3.1.5
+
+## 0.7.0.13
+
 - bump Tailscale version to 1.38.3
 
 ## 0.7.0.12
