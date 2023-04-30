@@ -1,4 +1,10 @@
 # Changelog
+
+## 0.7.0.16
+
+- bump Tailscale version to 1.40.0
+- bump base image to 1.3.2.2
+
 ## 0.7.0.15
 
 - bump Tailscale version to 1.38.4
