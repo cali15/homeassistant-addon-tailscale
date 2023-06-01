@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.0.18
+
+- bump Tailscale version to 1.42.,
+
 ## 0.7.0.17
 
 - bump Tailscale version to 1.40.1
