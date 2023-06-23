@@ -9,11 +9,12 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ARG BUILD_ARCH=amd64
 RUN \
     apk add --no-cache \
-        ip6tables=1.8.8-r2 \
-        ipcalc=1.0.1-r1 \
-        iproute2=6.0.0-r1 \
-        iptables=1.8.8-r2 \
-        nginx=1.22.1-r0 \
+        ip6tables=1.8.9-r2 \
+        ipcalc=1.0.2-r0 \
+        iproute2=6.3.0-r0 \
+        iptables=1.8.9-r2 \
+        nginx=1.24.0-r6 \
+        coreutils=9.3-r1 \
     \
     && ln -sf /sbin/xtables-nft-multi /sbin/ip6tables \
     && ln -sf /sbin/xtables-nft-multi /sbin/iptables \
