@@ -2,7 +2,7 @@
 
 ## 0.7.0.24
 
-- bump Tailscale version to 1.48.0
+- bump Tailscale version to 1.48.1
 
 ## 0.7.0.23
 
