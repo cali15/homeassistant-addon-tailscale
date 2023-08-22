@@ -15,6 +15,7 @@ RUN \
         iptables=1.8.9-r2 \
         nginx=1.24.0-r6 \
         coreutils=9.3-r1 \
+        networkmanager-common=1.42.8-r0 \
     \
     && ln -sf /sbin/xtables-nft-multi /sbin/ip6tables \
     && ln -sf /sbin/xtables-nft-multi /sbin/iptables \
@@ -26,7 +27,7 @@ RUN \
     && if [ "${BUILD_ARCH}" = "i386" ]; then ARCH="386"; fi \
     \
     && curl -L -s \
-        "https://pkgs.tailscale.com/stable/tailscale_1.48.0_${ARCH}.tgz" \
+        "https://pkgs.tailscale.com/stable/tailscale_1.48.1_${ARCH}.tgz" \
         | tar zxvf - -C /opt/ --strip-components 1 \
     \
     && rm -f -r \
