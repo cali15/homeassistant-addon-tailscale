@@ -1,8 +1,12 @@
 # Changelog
 
-## 0.7.0.28
+## 0.7.0.29
 
 - bump Tailscale version to 1.52.0
+
+## 0.7.0.28
+
+- bump Tailscale version to 1.56.1
 
 ## 0.7.0.27
 
@@ -24,7 +28,6 @@
 
 - bump base image version to 14.0.7
 
-
 ## 0.7.0.22
 
 - bump Tailscale version to 1.46.1
@@ -36,7 +39,7 @@
 ## 0.7.0.20
 
 - bump base image to 14.0.2
-  
+
 ## 0.7.0.19
 
 - bump Tailscale version to 1.44.0
@@ -76,11 +79,9 @@
 - bump tailscale version to 1.36.2
 - bump base image version to 13.1.2
 
-
 ## 0.7.0.8.1 (forked)
 
 - bump tailscale version to 1.36.1
-
 
 ## 0.7.0.8.1 (test)
 
