@@ -10,13 +10,13 @@ ARG BUILD_ARCH=amd64
 ARG TAILSCALE_VERSION="v1.64.0"
 RUN \
     apk add --no-cache \
-    ipcalc=1.0.3-r0 \
-    iproute2=6.6.0-r0 \
-    iptables=1.8.10-r3 \
-    nginx=1.24.0-r15 \
-    coreutils=9.4-r2 \
-    networkmanager-common=1.44.4-r0 \
-    inotify-tools=4.23.9.0-r0 \
+        ipcalc=1.0.3-r0 \
+        iproute2=6.6.0-r0 \
+        iptables=1.8.10-r3 \
+        nginx=1.24.0-r15 \
+        coreutils=9.4-r2 \
+        networkmanager-common=1.44.4-r0 \
+        inotify-tools=4.23.9.0-r0 \
     \
     && ln -sf /sbin/xtables-nft-multi /sbin/ip6tables \
     && ln -sf /sbin/xtables-nft-multi /sbin/iptables \
@@ -26,11 +26,11 @@ RUN \
     && if [ "${BUILD_ARCH}" = "amd64" ]; then ARCH="amd64"; fi \
     \
     && curl -L -s \
-    "https://pkgs.tailscale.com/stable/tailscale_${TAILSCALE_VERSION#v}_${ARCH}.tgz" \
-    | tar zxvf - -C /opt/ --strip-components 1 \
+        "https://pkgs.tailscale.com/stable/tailscale_${TAILSCALE_VERSION#v}_${ARCH}.tgz" \
+        | tar zxvf - -C /opt/ --strip-components 1 \
     \
     && rm -f -r \
-    /opt/systemd
+        /opt/systemd
 
 # Copy root filesystem
 COPY rootfs /
